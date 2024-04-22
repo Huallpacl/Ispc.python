@@ -1,0 +1,12 @@
+
+def cargar():
+    flag = 0
+    while flag == 0:
+        num = int(input("ingrese número de 3 dígitos"))
+        if (num >99 and num <1000):
+            flag = 1
+            return num
+numero = cargar()
+med = str(numero)
+invertido = int(med[::-1])
+print(invertido)      
